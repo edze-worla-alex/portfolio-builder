@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media (min-width: 768px) {
+    .md\:ml-80 {
+        margin-left: 20rem;
+    }
+}
