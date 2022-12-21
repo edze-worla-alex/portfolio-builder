@@ -6,3 +6,15 @@
         margin-left: 20rem;
     }
 }
+
+div.jse-menu {
+    display: none!important;
+}
+
+div.jse-navigation-bar {
+    display: none!important;
+}
+
+.jse-contextmenu.svelte-1nininf.svelte-1nininf {
+    background: #ea3965!important;
+}

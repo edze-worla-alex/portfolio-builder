@@ -9,8 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
     "flowbite": "^1.5.5",
+    "json-editor-vue": "^0.10.4",
+    "vanilla-jsoneditor": "^0.11.4",
     "vue": "^3.2.45",
+    "vue-json-edit": "^1.4.3",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

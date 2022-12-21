@@ -6,7 +6,7 @@
                                 <div class="py-12">
                                     <h2 class="after-effect after:left-52 mt-12 lg:mt-0 ">About Me</h2>
                                     <div class="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
-                                        <div class="col-span-12 md:col-span-4"><img class="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0" src="media/about.01c11c889888a40123f4.jpg" alt=""></div>
+                                        <div class="col-span-12 md:col-span-4"><img id="about_photo" class="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0" src="media/about.01c11c889888a40123f4.jpg" alt=""></div>
                                         <div class="col-span-12 md:col-span-8 space-y-2.5">
                                             <div class=" md:mr-12 xl:mr-16">
                                                 <h3 class="text-4xl font-medium dark:text-white mb-2.5 ">Who am i?</h3>
@@ -48,10 +48,11 @@
                                 <div class="  pb-12 ">
                                     <h3 class="text-[35px] dark:text-white font-medium pb-5">What I do!</h3>
                                     <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
-                                        <div v-for="(service,index) in services" :key="index" class="about-box dark:bg-transparent bg-gradient-to-r from-rose-700 to-pink-600 "><img class="w-10 h-10 object-contain  block" src="media/icon-1.71b741a6ab73765534e80db0a934febd.svg" alt="">
+                                        <div v-for="(service,index) in services" :key="index" class="about-box dark:bg-transparent bg-gray-100 ">
+                                        <img class="w-10 h-10 object-contain  block" src="media/icon-1.71b741a6ab73765534e80db0a934febd.svg" alt="">
                                             <div class="space-y-2 break-all">
-                                                <h3 class="dark:text-white text-xl font-semibold text-white" v-text="service.title"></h3>
-                                                <p class=" leading-8 text-gray-100 dark:text-[#A6A6A6]" v-html="service.description"></p>
+                                                <h3 class="dark:text-white text-xl font-semibold text-gray-700" v-text="service.title"></h3>
+                                                <p class=" leading-8 text-gray-500 dark:text-[#A6A6A6]" v-html="service.description"></p>
                                             </div>
                                         </div>
                                     </div>
